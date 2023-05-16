@@ -1,0 +1,70 @@
+.project .row {
+  width: 80%;
+}
+
+.project .single {
+  position: relative;
+  padding: ;
+  background-color: #f6f6f6;
+  color: #111;
+  transition: var(--transition);
+  border-radius: 4px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.project .single p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.project .single > img {
+  max-width: 100%;
+  /* border: 2px solid #ddd; */
+}
+
+.project .single .img .p_btn {
+  font-size: 14px;
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  color: blue;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.project .single .img .p_btn:hover {
+  border: 2px solid var(--color-primary-variant);
+}
+
+.project .p_cont h6 {
+  color: var(--color-light);
+  font-size: 16px;
+}
+
+.project .p_cont h1 {
+  font-size: 28px;
+}
+
+@media (max-width: 1024px) {
+  .project .p_cont > h6 {
+    font-size: 14px;
+  }
+  .project .p_cont > h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project .p_cont > h6 {
+  }
+  .project .p_cont > h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project .p_cont > h6 {
+  }
+  .project .p_cont > h1 {
+    font-size: 20px;
+  }
+}

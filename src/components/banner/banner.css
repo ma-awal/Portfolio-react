@@ -1,0 +1,122 @@
+
+.banner{
+height: 70vh;
+padding:3rem 0rem;
+
+
+}
+.banner .b_img{
+
+/* background:  linear-gradient(to right,#40ffa3, #274A99);; */
+ border:1px solid;
+ border-right: 0px;
+ border-top: 0px;
+ border-image:linear-gradient(to right,#40ffa3, #274A99) 1  ;
+  
+ 
+  }
+.banner .b_img >img{
+width: 100%;
+max-width: 50%;
+object-fit: cover;
+
+}
+.banner .b_details{
+position: relative;
+}
+.banner .b_details >h4:nth-of-type(1)::after{
+content: "";
+position: absolute;;
+top: 10%;
+width: 30%;
+height: 1px;
+background:  linear-gradient(to right,#40ffa3, #274A99);
+left:20%;
+}
+
+
+
+@media (max-width:1024px) {
+.banner{
+height: max-content;
+padding: 2rem 0rem;
+}
+.banner  h4{
+font-size: 16px;
+;
+}
+
+.banner h1{
+font-size: 24px;
+;
+}
+.banner h6{
+   font-size: 16px;
+}
+
+.banner .b_img >img{
+width: 100%;
+max-width: 60%;
+object-fit: cover;
+}
+
+}
+
+
+
+
+@media (max-width:768px) {
+.banner{
+height: max-content;
+padding: 2rem 0rem;
+}
+.banner  h4{
+font-size: 14px;
+;margin-bottom: 8px;;
+}
+
+.banner h1{
+font-size: 20px;
+margin-bottom: 8px;;
+}
+.banner h6{
+   font-size: 14px;
+}
+
+.banner .b_img >img{
+width: 100%;
+max-width: 50%;
+object-fit: cover;
+}
+
+}
+
+
+
+
+@media (max-width:576px) {
+.banner{
+height: max-content;
+padding: 2rem 0rem;
+}
+.banner  h4{
+  
+   margin-bottom: 4px;;
+}
+   
+.banner h1{
+   font-size: 18px;
+   margin-bottom: 4px;;
+}
+
+.banner .b_img >img{
+   width: 100%;
+   max-width: 70%;
+   object-fit: cover;
+}
+
+.btn{
+   padding:4px 8px!important;
+   font-size: 12px!important;
+}
+}
