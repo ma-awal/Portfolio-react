@@ -2,7 +2,11 @@ import bazar from '../assets/bazar.png';
 import appora from '../assets/appora.png';
 import portfolio from '../assets/Portfolio.png';
 export const proData = [
-  { img: portfolio, title: 'Portfolio' },
+  {
+    img: portfolio,
+    title: 'Portfolio',
+    link: 'https://portfolio-react-baia.vercel.app/',
+  },
   {
     img: bazar,
     title: 'Bazar',
