@@ -1,11 +1,11 @@
-import React from "react";
-import "./address.css";
-import { useRef } from "react";
-import emailjs from "emailjs-com";
-import { CiLocationOn } from "react-icons/ci";
+import React from 'react';
+import './address.css';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import { CiLocationOn } from 'react-icons/ci';
 
-import { AiOutlinePhone } from "react-icons/ai";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
 // import { BsMessenger } from "react-icons/bs";
 // import { BsWhatsapp } from "react-icons/bs";
 const Address = () => {
@@ -16,10 +16,10 @@ const Address = () => {
 
     emailjs
       .sendForm(
-        "service_sw1c2kb",
-        "template_xixq96u",
+        'service_sw1c2kb',
+        'template_xixq96u',
         form.current,
-        "PMy8O7uhgDsOiqj57"
+        'PMy8O7uhgDsOiqj57'
       )
       .then(
         (result) => {
@@ -33,8 +33,7 @@ const Address = () => {
   };
 
   return (
-    <section className="address py-3 py-md-4 py-lg-5 mt-2 mt-md-3 mt-md-5 position-relative">
-        <div className="blur" style={{top:"-18%",right:"0"}}></div>
+    <section className="address py-3 py-md-4 py-lg-5 mt-2 mt-md-3 mt-md-5 ">
       <div className="c_cont text-center">
         <h6>Get in touch</h6>
         <h1>Contact us</h1>
