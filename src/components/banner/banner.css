@@ -1,7 +1,7 @@
 
 .banner{
 height: 70vh;
-padding:3rem 0rem;
+ 
 
 
 }
@@ -36,7 +36,7 @@ left:20%;
 
 
 
-@media (max-width:1024px) {
+@media (max-width:992px) {
 .banner{
 height: max-content;
 padding: 2rem 0rem;
@@ -111,7 +111,7 @@ padding: 2rem 0rem;
 
 .banner .b_img >img{
    width: 100%;
-   max-width: 70%;
+   max-width: 40%;
    object-fit: cover;
 }
 

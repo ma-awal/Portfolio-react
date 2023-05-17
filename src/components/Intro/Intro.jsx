@@ -9,12 +9,12 @@ const Intro = () => {
     <section className="intro  ">
       <div className="container">
         <div className="row gy-5   gy-md-0  mx-auto  justify-content-center justify-content-md-between align-items-center  ">
-          <div className="col-10 col-sm-8 col-md-6     ">
+          <div className="col-12 col-sm-10 col-md-6     ">
             <div className="a_img ">
               <img src={Programming} className="img-fluid" alt="img" />
             </div>
           </div>
-          <div className="col-10 col-sm-8 col-md-6 position-relative  ">
+          <div className="col-12 col-sm-10 col-md-6 position-relative  ">
             <div className="a_cont ">
               <h1>Get Intro About me</h1>
               <p>

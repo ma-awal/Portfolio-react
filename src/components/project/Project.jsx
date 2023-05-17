@@ -17,11 +17,11 @@ const Project = () => {
             const id = uuidv4();
             const { img, title, link } = data;
             return (
-              <div key={id} className="col-10 col-sm-6 col-md-5 col-lg-4 ">
-                <div className="single border">
+              <div key={id} className="col-6 col-sm-6  col-md-4 col-lg-3   ">
+                <div className="single border w-100">
                   <img src={img} alt="img" />
 
-                  <div className="img  text-center py-4  ">
+                  <div className="img  text-center pb-2 pb-md-3  ">
                     <p className=" p-0 mb-1 ">{title}</p>
                     <Link
                       to={link}

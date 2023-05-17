@@ -15,7 +15,7 @@ export const skillData=[
    {img:css, name:"Css", skill:"Professional"},
    {img:bootstrap, name:"Bootstarp", skill:"Professional"},
    {img:js, name:"Javascript", skill:"Intermediate"},
-   {img:jquery, name:"Jquery", skill:"Intermediate"},
+  //  {img:jquery, name:"Jquery", skill:"Intermediate"},
    {img:sass, name:"Sass", skill:"Intermediate"},
    {img:tailwind, name:"Tailwind css", skill:"Basic"},
    {img:react, name:"React js", skill:"Basic"},

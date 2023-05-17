@@ -7,7 +7,7 @@ const Card = (props) => {
     <section className="all mt-3 mt-md-3 mt-lg-4">
       <div className="container">
         <div className="row justify-content-center align-items-center">
-          <div className="col-8">
+          <div className="col-12 col-md-10 col-lg-8">
             <div className="card">
               <h4>{name}</h4>
               <p>{title}</p>

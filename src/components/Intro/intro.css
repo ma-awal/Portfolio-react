@@ -1,5 +1,5 @@
 .intro .row{
-   max-width: 80%;
+   max-width: 90%;
 }
 
 
@@ -21,20 +21,19 @@
 .intro .a_img>img{
    border-radius: .5rem  2rem;  
    overflow: hidden;
-   transform: rotate(10deg);
+  
     width: 70%;
     object-fit: cover;
     max-width: 100%;
     transition: var(--transtion);
 }
-.intro .a_img>img:hover{
  
-   transform: rotate(0deg);
-   
-}
 
 
-@media (max-width:1024px) {
+@media (max-width:992px) {
+   .intro .row{
+      max-width: 100%;
+   }
    .intro{
       height: max-content;
       padding: 2rem 0rem;;
@@ -54,6 +53,6 @@
 @media (max-width:576px) {
    .intro .a_cont>h1{
       font-size: 20px!important;
-      margin-bottom: 4px;
+      margin-bottom: 5px;
    }
 }

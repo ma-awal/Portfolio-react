@@ -1,6 +1,6 @@
  
  .address .row{
-   max-width: 80%;;
+   max-width: 90%;;
  }
 .address .a_connect{
    border-right: 1px solid;
@@ -129,7 +129,10 @@
 
 
 
-@media (max-width:1024px) {
+@media (max-width:992px) {
+   .address .row{
+      max-width: 90%;;
+    }
    .address .c_cont>h6{
       font-size: 14px;
    }
@@ -145,7 +148,9 @@
 }
 
 @media (max-width:768px) {
-  
+   .address .row{
+      max-width: 100%;;
+    }
    .address .c>h1{
       font-size:22px;
    }

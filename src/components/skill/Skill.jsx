@@ -18,7 +18,7 @@ const Skill = () => {
             return (
               <div
                 key={id}
-                className="col-10 col-sm-6 col-md-5 col-lg-4  gy-3 gy-md-4 gy-lg-5 text-center "
+                className="col-6 col-md-4 col-lg-3   gy-3 gy-md-4   text-center "
               >
                 <div className="box text-center ">
                   <img src={img} className="img-fluid" alt="img" />

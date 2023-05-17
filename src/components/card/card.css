@@ -8,7 +8,7 @@
    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
 }
 
-@media (max-width:1024px) {
+@media (max-width:992px) {
    .all .card{
       min-height:20vh;;;
      
