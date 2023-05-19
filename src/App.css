@@ -91,6 +91,7 @@ h2 {
   height: 14rem;
   border-radius: 50%;
   filter: blur(72px);
+  z-index: -1000;
 }
 @media (max-width: 1024px) {
   .btn {
@@ -100,7 +101,6 @@ h2 {
 }
 
 @media (max-width: 768px) {
- 
   .btn {
     padding: 6px 8px !important;
     font-size: 12px !important;

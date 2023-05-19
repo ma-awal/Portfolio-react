@@ -33,7 +33,8 @@ const Address = () => {
   };
 
   return (
-    <section className="address py-3 py-md-4 py-lg-5 mt-2 mt-md-3 mt-md-5 ">
+    <section className="address position-relative py-3 py-md-4 py-lg-5 mt-2 mt-md-3 mt-md-5 ">
+      <div className="blur" style={{ top: '-18%', right: '0' }}></div>
       <div className="c_cont text-center">
         <h6>Get in touch</h6>
         <h1>Contact us</h1>
@@ -43,7 +44,7 @@ const Address = () => {
           <div className="col-10 col-sm-6 col-md-5   a_connect ">
             <div className="adress mt-2 mt-md-3">
               <AiOutlineMail />
-              <span className="  d-block">maawal797@gmail.com</span>
+              <span className="  d-block">developerawal3@gmail.com</span>
               <p>Send your mail any time</p>
             </div>
             <div className="adress mt-2 mt-md-3  ">

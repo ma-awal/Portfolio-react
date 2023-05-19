@@ -1,31 +1,29 @@
-
-
-.header .nav-brand{
-   font: 24px;
-   font-weight:700;
-   line-height: 16px;
-   background: linear-gradient(to right,#40ffa3, #274A99);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+.header .nav-brand {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 16px;
+  background: linear-gradient(to right, #40ffa3, #274a99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
- .header .nav-link{
-   font-weight: 400;
-   font-size: 14px;
-   color:var(--color-white)!important
-   
- }
+.header .nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-white) !important;
+}
 
- .header .nav-link.active{
-   color: var(--color-primary)!important;
- }
- 
- .navbar .bar-icon {
-   
-   color: white;
-   border: 0!important;;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   font-size: 16px;
-   font-weight: 900
- }
- 
+.header .nav-link.active {
+  color: var(--color-primary) !important;
+}
+
+.header .navbar .bar-icon {
+  color: white !important;
+  box-shadow: 0;
+  font-size: 16px;
+  font-weight: 900;
+}
+@media (max-width: 576px) {
+  .header .nav-brand {
+    font-size: 28px;
+  }
+}

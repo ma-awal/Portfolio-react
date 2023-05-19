@@ -5,7 +5,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { skillData } from '../../Data/Skildata';
 const Skill = () => {
   return (
-    <section className="skill py-3 py-md-4 py-lg-5 mt-3 mt-md-4 mt-lg-5   ">
+    <section className="skill position-relative py-3 py-md-4 py-lg-5 mt-3 mt-md-4 mt-lg-5   ">
+      <div className="blur" style={{ top: '-18%', right: '0' }}></div>
       <div className="container">
         <div className="e_cont text-center">
           <h6>What skill i have</h6>
