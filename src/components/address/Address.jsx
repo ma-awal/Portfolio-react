@@ -16,10 +16,10 @@ const Address = () => {
 
     emailjs
       .sendForm(
-        'service_sw1c2kb',
-        'template_xixq96u',
+        'service_epxu488',
+        'template_sodm9jv',
         form.current,
-        'PMy8O7uhgDsOiqj57'
+        'BUunADRxYFA-4Ov88'
       )
       .then(
         (result) => {

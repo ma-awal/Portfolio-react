@@ -7,7 +7,7 @@ const Loading = ({ loading, setLoading }) => {
     if (loading) {
       const timeout = setTimeout(() => {
         setLoading(false);
-      }, 2000);
+      }, 1000);
 
       return () => clearTimeout(timeout);
     }

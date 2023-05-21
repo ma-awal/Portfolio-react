@@ -15,7 +15,7 @@ const Project = () => {
       <div className="container ">
         <div className="p_cont text-center">
           <h6>My recent work</h6>
-          <h1>Project</h1>
+          <h1>Projects</h1>
         </div>
         <div className="  row mx-auto  align-items-center justify-content-center   mt-2 mt-md-3 mt-lg-4 gy-3 gy-md-4 gy-lg-5">
           {proData.map((data) => {

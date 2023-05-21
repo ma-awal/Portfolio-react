@@ -23,8 +23,8 @@ const Header = () => {
         onToggle={() => setExpanded(!expanded)}
       >
         <Container>
-          <Navbar.Brand href="#home" className="nav-brand">
-            Developer Awal
+          <Navbar.Brand href="#home" className="nav-brand  ">
+            Ma Awal
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
