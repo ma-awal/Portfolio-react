@@ -2,7 +2,7 @@ import React from 'react';
 import Programming from '../../assets/programming.gif';
 import { Link } from 'react-router-dom';
 import './intro.css';
-import cv from '../../assets/cv1.pdf';
+import resume from '../../assets/resume2.pdf';
 
 const Intro = () => {
   return (
@@ -26,7 +26,7 @@ const Intro = () => {
               </p>
             </div>
             <div className="d-flex justify-content-center justify-content-md-start">
-              <a download href={cv} className="btn btn-2 ">
+              <a download href={resume} className="btn btn-2 ">
                 Download cv
               </a>
             </div>
