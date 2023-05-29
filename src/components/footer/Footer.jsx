@@ -18,7 +18,7 @@ const Footer = () => {
               <img src={facebook} className="img-fluid" alt="face" />
             </a>
             <a
-              href="https://www.linkedin.com/in/md-awal3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCpGGKQOfTg%2Bh4hNRlmcU6g%3D%3D"
+              href="https://www.linkedin.com/in/md-abdul-awal-899402278?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUuP1IHnISlG1Jk6lO%2BPJQw%3D%3D"
               target="_blank"
               className="text-decoration-none"
             >
