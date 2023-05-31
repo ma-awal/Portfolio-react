@@ -11,11 +11,11 @@ import git from '../assets/github.png';
 export const skillData = [
   { img: html, name: 'Html5', skill: 'Professional' },
   { img: css, name: 'Css3', skill: 'Professional' },
-  { img: sass, name: 'Sass', skill: 'Professional' },
   { img: bootstrap, name: 'Bootstarp5', skill: 'Professional' },
-  { img: js, name: 'Javascript', skill: 'Comfortable' },
-  { img: react, name: 'React js', skill: 'Basic' },
-  { img: tailwind, name: 'Tailwind css', skill: 'Basic' },
+  { img: js, name: 'JavaScript', skill: 'Comfortable' },
+  { img: sass, name: 'Sass', skill: 'Comfortable' },
+  { img: react, name: 'React Js', skill: 'Basic' },
+  // { img: tailwind, name: 'TailwindCSS  ', skill: 'Basic' },
   // { img: jquery, name: 'Jquery', skill: 'Basic' },
-  { img: git, name: 'git ', skill: 'Basic' },
+  { img: git, name: 'Git ', skill: 'Basic' },
 ];

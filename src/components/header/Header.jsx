@@ -24,7 +24,7 @@ const Header = () => {
       >
         <Container>
           <Navbar.Brand href="#home" className="nav-brand  ">
-            Ma Awal
+            AWAL
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
